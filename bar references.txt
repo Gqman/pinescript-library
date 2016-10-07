@@ -1,0 +1,4 @@
+redbar(x) => open[x] > close[x]
+greenbar(x) => open[x] < close[x]
+insidebar(currentbar,currentbar1) => high(currentbar1) >= high(currentbar) and low(currentbar1) <= low(currentbar)
+outsidebar(currentbar,currentbar1) => high(currentbar1) < high(currentbar) and low(currentbar1) > low(currentbar))
