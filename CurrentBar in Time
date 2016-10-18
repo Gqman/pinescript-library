@@ -1,0 +1,9 @@
+currentbar = time(period)
+
+//then maybe do something like 
+function()=>
+  //defines some calculation and sets a point in time to reference.
+  x = currentbar
+  
+if(currentbar > x)
+  then do something
